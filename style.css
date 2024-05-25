@@ -1,4 +1,20 @@
+@font-face {
+    font-family: MyFont;
+    src: url('/fonts/swedensans-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: MyFontBold;
+    src: url('/fonts/swedensansbold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: MyFontMono;
+    src: url('/fonts/FantasqueSansMono-Regular.otf') format('opentype');
+}
+
 * {
+    font-face: MyFont;
     background-color: lch(10 0 0);
     color: lch(100 0 0);
 }
