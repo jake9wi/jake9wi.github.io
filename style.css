@@ -13,19 +13,47 @@
     src: url('/fonts/FantasqueSansMono-Regular.otf') format('opentype');
 }
 
+html {
+    font-size: 16pt;
+}
+
 * {
     font-family: MyFont;
-    background-color: lch(10 0 0);
-    color: lch(100 0 0);
+    background-color: oklch(10% 0 0);
+    color: oklch(100% 0 0);
 }
 
 h1 {
-    background-color: lch(70 39 180);
-    color: lch(100 0 0);
-    padding: 1pt;
+    background-color: oklch(43.89% 0.1 261.62);
+    color: oklch(100% 0 0);
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+h2 {
+    background-color: oklch(33% 0 0);
+    color: oklch(100% 0 0);
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 header *, footer * {
-    background-color:lch(46.32 87.81 40);
-    color: lch(100 0 0);
+    background-color: oklch(46.32% 87.81 40);
+    color: oklch(100% 0 0);
+}
+
+p {
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+pre {
+    font-family: MyFontMono;
+    padding-left: 2rem;
 }
