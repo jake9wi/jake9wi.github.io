@@ -53,7 +53,8 @@ p {
     padding-bottom: 0.5rem;
 }
 
-pre {
+blockquote, blockquote p {
+    /*white-space: pre;*/
     font-family: MyFontMono;
     padding-left: 2rem;
 }
