@@ -66,12 +66,12 @@ function renderTable(periods) {
         const timeCell = document.createElement("td");
         const date = new Date(period.startTime);
         const options = {
-            weekday: 'long',
+            weekday: 'short',
             month: '2-digit',
             day: '2-digit',
             hour: '2-digit',
-            minute: '2-digit',
-            timeZoneName: 'short'
+            timeZoneName: 'short',
+            hour12: false
         };
         timeCell.textContent = date.toLocaleString('en-US', options)
             .replace(',', ', ')
