@@ -46,7 +46,7 @@ function renderTable(periods) {
     const thead = document.createElement("thead");
     const tbody = document.createElement("tbody");
     const headerRow = document.createElement("tr");
-    ["Icon", "Time", "Temperature", "Wind", "Precipitation", "Forecast"].forEach(headerText => {
+    ["Icon", "Time", "Temp", "Wind", "Precip", "Fcst"].forEach(headerText => {
         const th = document.createElement("th");
         th.textContent = headerText;
         headerRow.appendChild(th);
@@ -98,31 +98,6 @@ function renderTable(periods) {
     tableContainer.innerHTML = "";
     tableContainer.appendChild(table);
 }
-// CSS remains the same as in previous version
-const styleElement = document.createElement('style');
-styleElement.textContent = `
-    .weather-table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    .weather-table th {
-        background-color: #f2f2f2;
-        border: 1px solid #ddd;
-        padding: 8px;
-    }
-    .weather-table td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: center;
-    }
-    .even-row {
-        background-color: #f9f9f9;
-    }
-    .odd-row {
-        background-color: #ffffff;
-    }
-`;
-document.head.appendChild(styleElement);
 document.addEventListener("DOMContentLoaded", () => {
     fetchWeatherData();
 });
