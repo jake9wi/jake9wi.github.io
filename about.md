@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About Me
 permalink: /about/
 description: "Learn more about Jacob (KD9LWR), a Catholic ham radio operator, Linux enthusiast, and ARES Emergency Coordinator from Indiana."
