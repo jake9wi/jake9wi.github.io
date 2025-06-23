@@ -35,8 +35,11 @@ jobs:
         run: bundle exec jekyll build
 
       - name: ✅ Lint HTML output
-        run: htmlproofer ./_site --assume-extension \
-        --check-html --disable-external || echo "::warning::HTMLProofer warnings"
+      run: |
+         htmlproofer ./_site \
+            --assume-extension \
+            --check-html \
+            --disable-external || echo "::warning::HTMLProofer warnings"
 
       - name: 🧪 YAML Lint
         run: |
