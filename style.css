@@ -14,20 +14,20 @@
 }
 
 :root {
-    --bg-color: oklch(100% 0 0);
-    --text-color: oklch(0% 0 0);
-    --h1-bg: oklch(55% 0.1 261.62);
-    --h2-bg: oklch(80% 0 0);
-    --hf-bg: oklch(90% 87.81 40);
+    --bg-color: oklch(100% 0 0deg);
+    --text-color: oklch(0% 0 0deg);
+    --h1-bg: oklch(55% 0.1 261.62deg);
+    --h2-bg: oklch(80% 0 0deg);
+    --hf-bg: oklch(90% 87.81 40deg);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --bg-color: oklch(10% 0 0);
-        --text-color: oklch(100% 0 0);
-        --h1-bg: oklch(43.89% 0.1 261.62);
-        --h2-bg: oklch(33% 0 0);
-        --hf-bg: oklch(46.32% 87.81 40);
+        --bg-color: oklch(10% 0 0deg);
+        --text-color: oklch(100% 0 0deg);
+        --h1-bg: oklch(43.89% 0.1 261.62deg);
+        --h2-bg: oklch(33% 0 0deg);
+        --hf-bg: oklch(46.32% 87.81 40deg);
     }
 }
 
@@ -35,14 +35,14 @@ html {
     font-size: 16pt;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
     html {
         font-size: 14pt;
     }
 }
 
 * {
-    font-family: MyFont;
+    font-family: MyFont, sans-serif;
 }
 
 body {
@@ -53,19 +53,13 @@ body {
 h1 {
     background-color: var(--h1-bg);
     color: var(--text-color);
-    padding-left: 1rem;
-    padding-right: 1rem; 
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 h2 {
     background-color: var(--h2-bg);
     color: var(--text-color);
-    padding-left: 1rem;
-    padding-right: 1rem; 
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 header *, footer * {
@@ -74,15 +68,12 @@ header *, footer * {
 }
 
 p {
-    padding-left: 1rem;
-    padding-right: 1rem; 
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 blockquote, blockquote p {
-    /*white-space: pre;*/
-    font-family: MyFontMono;
+    /* white-space: pre; */
+    font-family: MyFontMono, monospace;
     padding-left: 2rem;
 }
 
