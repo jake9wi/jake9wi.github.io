@@ -2,15 +2,19 @@
 layout: page
 title: About Me
 permalink: /about/
+description: "Learn more about Jacob (KD9LWR), a Catholic ham radio operator, Linux enthusiast, and ARES Emergency Coordinator from Indiana."
+keywords: ["Jacob Wiese", "KD9LWR", "ham radio", "La Porte County", "Linux", "ARES", "Skywarn", "Catholic", "blog"]
+author: Jacob Wiese
 ---
+
 ## 👋 Hello! I'm Jacob (KD9LWR)
 
 I'm a Catholic amateur radio operator, SKYWARN spotter, and ARES Emergency Coordinator for La Porte County, Indiana.
 
 ### 📡 Ham Radio
 
-* Callsign: **KD9LWR** (General Class)
-* GMRS: **WRQG204**
+* Callsign: `KD9LWR` (General Class)
+* GMRS: `WRQG204`
 
 ### 🔧 Background
 
@@ -38,4 +42,5 @@ I'm a Catholic amateur radio operator, SKYWARN spotter, and ARES Emergency Coord
 * Recently started exploring **RF filter design**.
 
 ## 📫 Contact
-* I’m easiest to reach via email. GPG and S/MIME certs available on this site.
+* 📧 Reach me by [email](mailto:jake9wi@outlook.com). You can also grab my [`GPG`](/JacobWieseKD9LWR-gpg.asc) and [`S/MIME`](/JacobWieseKD9LWR-smime.pem) certs.
+
