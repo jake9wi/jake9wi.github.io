@@ -43,4 +43,7 @@ I'm a Catholic amateur radio operator, SKYWARN spotter, and ARES Emergency Coord
 
 ## 📫 Contact
 * 📧 Reach me by [email](mailto:jake9wi@outlook.com). You can also grab my [`GPG`](/JacobWieseKD9LWR-gpg.asc) and [`S/MIME`](/JacobWieseKD9LWR-smime.pem) certs.
-
+* My amateur radio accounts:
+   - [X](https://x.com/Jacob_KD9LWR)
+   - [IG](https://www.instagram.com/jacob.kd9lwr.94/)
+   - [Threads](https://www.threads.com/@jacob.kd9lwr.94)
