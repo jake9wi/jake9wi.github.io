@@ -36,7 +36,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install yamllint
-          yamllint . --format colored --strict
+          yamllint . -c .yamllint.yml
 
       - name: 🪶 (Optional) Spell Check with codespell
         run: |
