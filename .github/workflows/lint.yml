@@ -33,4 +33,12 @@ jobs:
             --check-html \
             --disable-external \
           || echo "::warning::HTMLProofer warnings"
+
+      - name: Install stylelint
+        run: |
+        npm install -g stylelint stylelint-config-standard
+
+      - name: Lint CSS files
+        run: |
+        stylelint "**/*.css" || echo "::warning::CSS linting found issues"
 ---
