@@ -1,3 +1,4 @@
+---
 name: Lint Jekyll Site
 
 on:
@@ -41,3 +42,4 @@ jobs:
         run: |
           pip install codespell
           codespell --ignore-words-list="te,hart" --skip=".git,*.png,*.jpg,*.svg,_site"
+---
