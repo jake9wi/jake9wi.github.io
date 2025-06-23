@@ -3,9 +3,11 @@ name: Lint and Deploy Jekyll Site
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
   pull_request:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   build-deploy:
@@ -30,7 +32,8 @@ jobs:
         run: bundle exec jekyll build
 
       - name: ✅ Lint HTML output
-        run: htmlproofer ./_site --assume-extension --check-html --disable-external || echo "::warning::HTMLProofer warnings"
+        run: htmlproofer ./_site --assume-extension \
+        --check-html --disable-external || echo "::warning::HTMLProofer warnings"
 
       - name: 🧪 YAML Lint
         run: |
@@ -41,7 +44,8 @@ jobs:
       - name: 🪶 Spell Check with codespell
         run: |
           pip install codespell
-          codespell --ignore-words-list="te,hart" --skip=".git,*.png,*.jpg,*.svg,_site" || echo "::warning::Spelling issues"
+          codespell --ignore-words-list="te,hart" \
+          --skip=".git,*.png,*.jpg,*.svg,_site" || echo "::warning::Spelling issues"
 
       - name: 🚀 Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
