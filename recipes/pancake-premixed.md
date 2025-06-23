@@ -6,14 +6,14 @@ title: Pancakes, Premixed
 <p id="table-desc">
     To use this table take the mass, in grams, of the dry
     pancake mix; then multiply it by the water multiplier.
-    This yeilds the amount of water, in grams, to add to the mix.
+    This yields the amount of water, in grams, to add to the mix.
 </p>
 <table aria-describedby="table-desc">
     <caption>
         Water to Mix Ratios.
     </caption>
     <thead>
-        <tr><th>Mix Name</th><th>Water Mulitiplier</th>
+        <tr><th>Mix Name</th><th>Water Multiplier</th>
     </thead>
 
     <tbody>
