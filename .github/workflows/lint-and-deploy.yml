@@ -27,7 +27,7 @@ jobs:
           bundle install || true  # Skip if no Gemfile
 
       - name: 🏗️ Build the Jekyll site
-        run: jekyll build
+        run: bundle exec jekyll build
 
       - name: ✅ Lint HTML output
         run: htmlproofer ./_site --assume-extension --check-html --disable-external || echo "::warning::HTMLProofer warnings"
