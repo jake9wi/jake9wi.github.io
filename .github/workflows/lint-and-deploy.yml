@@ -1,0 +1,53 @@
+---
+name: Lint and Deploy Jekyll Site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build-deploy:
+    name: Lint, Build, and Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 💎 Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+
+      - name: 📦 Install dependencies
+        run: |
+          gem install bundler jekyll html-proofer
+          bundle install || true  # Skip if no Gemfile
+
+      - name: 🏗️ Build the Jekyll site
+        run: jekyll build
+
+      - name: ✅ Lint HTML output
+        run: htmlproofer ./_site --assume-extension --check-html --disable-external || echo "::warning::HTMLProofer warnings"
+
+      - name: 🧪 YAML Lint
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y yamllint
+          yamllint . -c .yamllint.yml || echo "::warning::YAML lint issues"
+
+      - name: 🪶 Spell Check with codespell
+        run: |
+          pip install codespell
+          codespell --ignore-words-list="te,hart" --skip=".git,*.png,*.jpg,*.svg,_site" || echo "::warning::Spelling issues"
+
+      - name: 🚀 Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          publish_branch: gh-pages
+---
