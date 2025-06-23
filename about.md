@@ -7,6 +7,8 @@ keywords: ["Jacob Wiese", "KD9LWR", "ham radio", "La Porte County", "Linux", "AR
 author: Jacob Wiese
 ---
 
+Icon USA
+
 ## 👋 Hello! I'm Jacob (KD9LWR)
 
 I'm a Catholic amateur radio operator, SKYWARN spotter, and ARES Emergency Coordinator for La Porte County, Indiana.
@@ -18,20 +20,18 @@ I'm a Catholic amateur radio operator, SKYWARN spotter, and ARES Emergency Coord
 
 ### 🔧 Background
 
-* 🧠 I enjoy problem-solving, tinkering and DYI'ing.
+* 🧠 I enjoy problem-solving, tinkering and DIY'ing.
 
 ### 🖥️ Computers
 
 * I run Linux (Kubuntu) for my primary computer,
    but run Win10 for my Ham Shack use.
-
 * I love having multi-displays on my computers.
 
 ### 🎧 Audio + Music
 
 * Audiophile with a soft spot for **female-fronted alt rock**—favorites include
    *Tonight Alive*, *YONAKA*, *Edge of Paradise*, and *Poppy*.
-
 * Use a FiiO JM21 loaded with FLAC, with custom EQs and ReplayGain tweaks.
 
 ### 🛠 Projects & Hobbies
