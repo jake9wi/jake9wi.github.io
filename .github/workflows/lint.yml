@@ -36,9 +36,9 @@ jobs:
 
       - name: Install stylelint
         run: |
-        npm install -g stylelint stylelint-config-standard
+          npm install -g stylelint stylelint-config-standard
 
       - name: Lint CSS files
         run: |
-        stylelint "**/*.css" || echo "::warning::CSS linting found issues"
+          stylelint "**/*.css" || echo "::warning::CSS linting found issues"
 ---
