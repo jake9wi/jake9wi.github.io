@@ -35,8 +35,8 @@ jobs:
         run: bundle exec jekyll build
 
       - name: ✅ Lint HTML output
-      run: |
-         htmlproofer ./_site \
+        run: |
+          htmlproofer ./_site \
             --assume-extension \
             --check-html \
             --disable-external || echo "::warning::HTMLProofer warnings"
@@ -60,4 +60,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
----
