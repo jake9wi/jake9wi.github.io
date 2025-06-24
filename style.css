@@ -14,21 +14,13 @@
 }
 
 :root {
-    --bg-color: oklch(100% 0 0deg);
-    --text-color: oklch(0% 0 0deg);
-    --h1-bg: oklch(55% 0.1 261.62deg);
-    --h2-bg: oklch(80% 0 0deg);
-    --hf-bg: oklch(90% 87.81 40deg);
-}
+    --bg-color: oklch(0.25 0.0641 0.43deg);
+    --text-color: oklch(0.6 0.0641 168.8deg);
+    --link-color: oklch(0.8382 0.1066 58.23deg);
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: oklch(10% 0 0deg);
-        --text-color: oklch(100% 0 0deg);
-        --h1-bg: oklch(43.89% 0.1 261.62deg);
-        --h2-bg: oklch(33% 0 0deg);
-        --hf-bg: oklch(46.32% 87.81 40deg);
-    }
+    --h1-bg: oklch(45% 0 0deg);
+    --h2-bg: oklch(70% 0 0deg);
+    --hf-bg: oklch(90% 87.81 40deg);
 }
 
 html {
@@ -86,4 +78,10 @@ td, th {
     border-color: #fff;
     border-width: 2pt;
     border-style:solid;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: var(--link-color);
+    text-decoration: underline;
+    font-weight: bold;
 }
