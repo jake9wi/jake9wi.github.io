@@ -24,7 +24,7 @@ html {
 }
 
 * {
-    font-family: 'Iosevka Aile Web';
+    font-family: 'Iosevka Aile Web' !important;
 }
 
 body {
