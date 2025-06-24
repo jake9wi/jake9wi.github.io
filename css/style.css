@@ -1,30 +1,20 @@
-@font-face {
-    font-family: MyFont;
-    src: url('/fonts/swedensans-webfont.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: MyFontBold;
-    src: url('/fonts/swedensansbold-webfont.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: MyFontMono;
-    src: url('/fonts/FantasqueSansMono-Regular.otf') format('opentype');
-}
+@import url("/css/IosevkaAile.css");
 
 :root {
-    --bg-color: oklch(0.25 0.0641 0.43deg);
+    --bg-color: oklch(0.20 0.0641 0.43deg);
     --text-color: oklch(0.6 0.0641 168.8deg);
     --link-color: oklch(0.8382 0.1066 58.23deg);
 
     --h1-bg: oklch(45% 0 0deg);
-    --h2-bg: oklch(70% 0 0deg);
+    --h1-txt: oklch(100% 0 0deg);
+    --h2-bg: oklch(55% 0 0deg);
+    --h2-txt: oklch(100% 0 0deg);
     --hf-bg: oklch(90% 87.81 40deg);
 }
 
 html {
-    font-size: 16pt;
+    font-size: 26pt;
+    line-height:140%;
 }
 
 @media (width <= 768px) {
@@ -34,7 +24,7 @@ html {
 }
 
 * {
-    font-family: MyFont, sans-serif;
+    font-family: 'Iosevka Aile Web';
 }
 
 body {
@@ -44,14 +34,13 @@ body {
 
 h1 {
     background-color: var(--h1-bg);
-    color: var(--text-color);
+    color: var(--h1-txt);
     padding: 0.5rem 1rem;
 }
 
 h2 {
-    background-color: var(--h2-bg);
-    color: var(--text-color);
     padding: 0.5rem 1rem;
+    text-decoration: underline;
 }
 
 header *, footer * {
@@ -64,8 +53,6 @@ p {
 }
 
 blockquote, blockquote p {
-    /* white-space: pre; */
-    font-family: MyFontMono, monospace;
     padding-left: 2rem;
 }
 
