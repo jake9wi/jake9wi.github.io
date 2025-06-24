@@ -7,14 +7,6 @@ title: JAKE9WI
 <h1>Hello, World!</h1>
 <p>This is my GitHub Pages site.</p>
 
-<h1>Page Index</h1>
-
-<h2>Recipes</h2>
-<ol>
-    <li><p><a href="/recipes/fries-oven-frozen.html">Fries, Oven, Frozen</a></p></li>
-    <li><p><a href="/recipes/pancake-premixed.html">Pancakes, Premixed</a></p></li>
-</ol>
-
 <h2>Recent Blog Posts</h2>
 <ul>
 {% for post in site.posts limit:5 %}
