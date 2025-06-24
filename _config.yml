@@ -1,13 +1,12 @@
----
 title: JAKE9WI
-url: "https://jake9wi.github.io"  # or your custom domain
+url: "https://jake9wi.github.io"
+baseurl: ""  # no trailing slash
 future: true
+
 collections:
   blog:
     output: true
-    permalink: /blog/:title/
+    permalink: /blog/:year/:month/:day/:title/
   ares:
     output: true
-    permalink: /ares/:title/
-
----
+    permalink: /ares/:year/:month/:day/:title/
