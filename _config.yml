@@ -2,5 +2,12 @@
 title: JAKE9WI
 url: "https://jake9wi.github.io"  # or your custom domain
 future: true
-permalink: /blog/:year/:month/:day/:title/
+collections:
+  blog:
+    output: true
+    permalink: /blog/:title/
+  ares:
+    output: true
+    permalink: /ares/:title/
+
 ---
