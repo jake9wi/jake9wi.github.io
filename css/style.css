@@ -83,3 +83,9 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: underline;
     font-weight: bold;
 }
+
+main,
+article.post {
+    max-width: 60rem;
+    margin: 0 auto;
+}
