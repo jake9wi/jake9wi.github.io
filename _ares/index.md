@@ -1,14 +1,12 @@
 ---
 layout: default
 title: Weather Events
-permalink: /weather-events/
+permalink: /ares/
 ---
 
 <h1>Weather Events</h1>
 <ul>
-{% for page in site.pages %}
-  {% if page.dir == '/weather-events/' and page.name != 'index.md' %}
-    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-  {% endif %}
+{% for post in site.ares %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
