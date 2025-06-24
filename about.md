@@ -7,8 +7,6 @@ keywords: ["Jacob Wiese", "KD9LWR", "ham radio", "La Porte County", "Linux", "AR
 author: Jacob Wiese
 ---
 
-Icon USA 1234
-
 ## 👋 Hello! I'm Jacob (KD9LWR)
 
 I'm a Catholic amateur radio operator, SKYWARN spotter, and ARES Emergency Coordinator for La Porte County, Indiana.
