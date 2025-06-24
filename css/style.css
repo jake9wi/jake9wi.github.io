@@ -48,6 +48,18 @@ header *, footer * {
     color: var(--text-color);
 }
 
+header nav {
+    padding: 0.5rem 1rem;
+}
+
+header nav a {
+    margin-right: 1rem;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
 p {
     padding: 0.5rem 1rem;
 }
