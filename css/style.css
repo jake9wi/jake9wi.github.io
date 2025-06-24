@@ -84,8 +84,9 @@ a:link, a:visited, a:hover, a:active {
     font-weight: bold;
 }
 
-main,
-article.post {
-    max-width: 60rem;
-    margin: 0 auto;
+
+article.post, main, header {
+    max-width: 60ch;      /* Keeps lines readable */
+    margin: 0 auto;       /* Horizontal center */
+    padding: 2rem 1rem;   /* Adds breathing room */
 }
