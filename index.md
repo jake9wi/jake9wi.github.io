@@ -9,7 +9,9 @@ title: JAKE9WI
 
 <h2>Recent Blog Posts</h2>
 <ul>
-{% for post in site.posts limit:5 %}
+{% assign posts = site.posts | concat: site.ares %}
+{% assign posts = posts | sort: 'date' | reverse %}
+{% for post in posts limit:5 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</li>
 {% endfor %}
 </ul>
