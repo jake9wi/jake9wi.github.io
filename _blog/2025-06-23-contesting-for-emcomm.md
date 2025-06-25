@@ -2,9 +2,8 @@
 layout: post
 title: "Radio Contesting as Emergency Communications Practice"
 date: 2025-06-23 14:30:00 -0500
-categories: hamradio emcomm contesting
-tags: [ham radio, emcomm, contesting, preparedness, skills]
 author: Jacob KD9LWR
+description: "Radio contesting as emcomm practice."
 ---
 
 When you think of emergency communications (emcomm), images

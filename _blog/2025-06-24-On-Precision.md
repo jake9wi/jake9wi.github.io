@@ -2,9 +2,8 @@
 layout: post
 title: "On Precision"
 date: 2025-06-24 14:30:00 -0500
-categories:
-tags:
 author: Jacob KD9LWR
+description: "A reflection on the importance of verbal precision, illustrated by the 1977 Tenerife airport disaster—showing how vague language can lead to confusion or catastrophe."
 ---
 
 When we speak, it is common to say things like *“that thing”*
