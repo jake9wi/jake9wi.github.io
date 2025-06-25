@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "On Precision"
-date: 2025-06-24
+date: 2025-06-24 14:30:00 -0500
 categories:
 tags:
 author: Jacob KD9LWR
