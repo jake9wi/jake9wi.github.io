@@ -10,6 +10,16 @@
     <link rel="manifest" href="/site.webmanifest">
     <title>{{ page.title | default: site.title }}</title>
 
+    <!-- Machine-readable license declaration -->
+    <link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
+
+    <!-- Optional: Dublin Core metadata -->
+    <meta name="dc.rights" content="Creative Commons Attribution 4.0 International License" />
+    <meta name="dc.rights.uri" content="https://creativecommons.org/licenses/by/4.0/" />
+
+    <!-- Optional: Attribution information -->
+    <meta name="dc.creator" content="Jacob KD9LWR" />
+
     <!-- SEO Meta Tags -->
     {% if page.description %}
     <meta name="description" content="{{ page.description | xml_escape }}">
@@ -48,4 +58,11 @@
 </header>
 {{ content }}
 </body>
+<footer>
+<p>
+  © 2025 Jacob KD9LWR. Content licensed under
+  <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer">
+    Creative Commons Attribution 4.0 International (CC BY 4.0)</a>.
+</p>
+</footer>
 </html>
