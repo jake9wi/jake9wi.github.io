@@ -7,6 +7,6 @@ collections:
   blog:
     output: true
     permalink: /blog/:year/:month/:day/:title/
-  ares:
+  aar:
     output: true
-    permalink: /ares/:year/:month/:day/:title/
+    permalink: /aar/:year/:month/:day/:title/
