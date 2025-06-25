@@ -2,3 +2,30 @@
 Gemfile.lock
 _site/
 .kate-swp
+
+# Node modules (never commit these)
+node_modules/
+
+# Optional npm cache logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.*.local
+
+# Output directories (if you use them)
+dist/
+build/
+
+# Mac and Linux file system junk (optional)
+.DS_Store
+*.swp
+
+# Optional lockfiles (if you only want to commit package.json)
+# Uncomment ONE of the following if you don't want to track lockfiles:
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+package.json
