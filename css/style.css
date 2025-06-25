@@ -1,10 +1,9 @@
 @import url("/css/iosevkaaile.css");
 
 :root {
-    --bg-color: oklch(0.20 0.0641 0.43deg);
-    --text-color: oklch(0.6 0.0641 168.8deg);
-    --link-color: oklch(0.8382 0.1066 58.23deg);
-
+    --bg-color: oklch(20% 0.0641 0.43deg);
+    --text-color: oklch(60% 0.0641 168.8deg);
+    --link-color: oklch(83.82% 0.1066 58.23deg);
     --h1-bg: oklch(45% 0 0deg);
     --h1-txt: oklch(80% 0 0deg);
     --h2-bg: oklch(55% 0 0deg);
@@ -24,7 +23,7 @@ html {
 }
 
 * {
-    font-family: 'Iosevka Aile Web' !important;
+    font-family: 'Iosevka Aile Web', system-ui, sans-serif;
 }
 
 body {
@@ -55,6 +54,12 @@ header nav a {
     margin-right: 1rem;
 }
 
+a:link, a:visited, a:hover, a:active {
+    color: var(--link-color);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 header nav a:last-child {
     margin-right: 0;
 }
@@ -78,11 +83,6 @@ td, th {
     border-style:solid;
 }
 
-a:link, a:visited, a:hover, a:active {
-    color: var(--link-color);
-    text-decoration: underline;
-    font-weight: bold;
-}
 
 
 article.post, main, header, footer {
