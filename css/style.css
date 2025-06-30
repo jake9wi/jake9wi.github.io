@@ -90,3 +90,13 @@ article.post, main, header, footer {
     margin: 0 auto;       /* Horizontal center */
     padding: 2rem 1rem;   /* Adds breathing room */
 }
+
+ul, ol {
+  margin-left: 0;
+  padding-left: 2em;
+}
+
+li {
+  margin-bottom: 0.5em;/
+}
+
