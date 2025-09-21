@@ -54,6 +54,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 h1 {
+    line-height: 125%;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.5rem;
