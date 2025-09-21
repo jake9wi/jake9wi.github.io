@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # Pin a stable Jekyll version compatible with GitHub Pages
-gem "jekyll", "~> 4.3.2"
+gem "jekyll", "~> 4.4.1"
 
 # Include html-proofer to enable HTML validation
 gem "html-proofer"
