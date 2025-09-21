@@ -12,7 +12,7 @@
 }
 
 html {
-    font-size: 26pt;
+    font-size: 18pt;
     line-height:140%;
 }
 
@@ -27,23 +27,52 @@ html {
 }
 
 body {
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
     background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+header *, footer * {
+    background-color: var(--hf-bg);
     color: var(--text-color);
 }
 
 h1 {
     background-color: var(--h1-bg);
     color: var(--h1-txt);
-    padding: 0.5rem 1rem;
 }
 
-h2 {
-    padding: 0.5rem 1rem;
+a:link, a:visited, a:hover, a:active {
+    color: var(--link-color);
+    text-decoration: underline;
+    font-weight: bold;
 }
 
-header *, footer * {
-    background-color: var(--hf-bg);
-    color: var(--text-color);
+h1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+main, article {
+    padding-top: 0rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 header nav {
@@ -52,12 +81,6 @@ header nav {
 
 header nav a {
     margin-right: 1rem;
-}
-
-a:link, a:visited, a:hover, a:active {
-    color: var(--link-color);
-    text-decoration: underline;
-    font-weight: bold;
 }
 
 header nav a:last-child {
@@ -83,14 +106,6 @@ td, th {
     border-style:solid;
 }
 
-
-
-article.post, main, header, footer {
-    max-width: 60ch;      /* Keeps lines readable */
-    margin: 0 auto;       /* Horizontal center */
-    padding: 2rem 1rem;   /* Adds breathing room */
-}
-
 ul, ol {
   margin-left: 0;
   padding-left: 2em;
@@ -99,4 +114,6 @@ ul, ol {
 li {
   margin-bottom: 0.5em;/
 }
+
+
 
