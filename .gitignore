@@ -32,3 +32,4 @@ package.json
 
 # Ignore bundled gems
 vendor/
+.bundle/
