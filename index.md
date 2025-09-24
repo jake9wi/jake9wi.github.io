@@ -14,7 +14,7 @@ title: JAKE9WI
 
 <h2>Recent Blog Posts</h2>
 <ul>
-{% assign posts = site.blog | concat: site.aar %}
+{% assign posts = site.blog | concat: site.aar % | concat: site.son %}
 {% assign posts = posts | sort: 'date' | reverse %}
 {% for post in posts limit:5 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%d %b %Y %Z" }}</li>

@@ -10,3 +10,6 @@ collections:
   aar:
     output: true
     permalink: /aar/:year/:month/:day/:title/
+  son:
+    output: true
+    permalink: /son/:year/:month/:day/:title/
