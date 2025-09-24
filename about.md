@@ -26,22 +26,14 @@ I'm a Catholic amateur radio operator, SKYWARN spotter, and ARES Emergency Coord
    but run Win10 for my Ham Shack use.
 * I love having multi-displays on my computers.
 
-### 🎧 Audio + Music
 
-* Audiophile with a soft spot for **female-fronted alt rock**—favorites include
-   *Tonight Alive*, *YONAKA*, *Edge of Paradise*, and *Poppy*.
-* Use a FiiO JM21 loaded with FLAC, with custom EQs and ReplayGain tweaks.
-
-### 🛠 Projects & Hobbies
-
-* Maintain a personal **GitHub Pages blog** for notes, experiments, and food recipes.
-* Using a audio mixer so I can listen to all of my ham radio through on pair of headphones.
-* Map making with QGIS.
-* Recently started exploring **RF filter design**.
 
 ## 📫 Contact
-* 📧 Reach me by [email](mailto:jake9wi@outlook.com). You can also grab my [`GPG`](/JacobWieseKD9LWR-gpg.asc) and [`S/MIME`](/JacobWieseKD9LWR-smime.pem) certs.
-* My amateur radio accounts:
+* 📧 Reach me by [email](mailto:jacob@jake9wi.com).
+* You can also grab my public keys[¹](https://en.wikipedia.org/wiki/Public-key_cryptography):
+  - [`GPG`](/pki/jacob-at-jake9wi-dot-com.asc)
+  - [`S/MIME`](/pki/jacob-at-jake9wi-dot-com.pem)
+* My amateur radio social media accounts:
    - [X](https://x.com/Jacob_KD9LWR)
-   - [IG](https://www.instagram.com/jacob.kd9lwr.94/)
-   - [Threads](https://www.threads.com/@jacob.kd9lwr.94)
+   - [IG](https://www.instagram.com/jacob.kd9lwr/)
+   - [Threads](https://www.threads.com/@jacob.kd9lwr)
