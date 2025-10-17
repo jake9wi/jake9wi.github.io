@@ -31,7 +31,7 @@ I'm a Catholic amateur radio operator, SKYWARN spotter, and ARES Emergency Coord
 ## 📫 Contact
 * 📧 Reach me by [email](mailto:jacob@jake9wi.com).
 * You can also grab my public keys[¹](https://en.wikipedia.org/wiki/Public-key_cryptography):
-  - [`GPG`](/pki/jacob-at-jake9wi-dot-com.asc)
+  - [`GPG`](/pki/jacobKD9LWR.asc)
   - [`S/MIME`](/pki/jacob-at-jake9wi-dot-com.pem)
 * My amateur radio social media accounts:
    - [X](https://x.com/Jacob_KD9LWR)
